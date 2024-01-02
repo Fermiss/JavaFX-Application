@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.startMenuController">
+   <children>
+      <Text layoutX="196.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите базу данных" textAlignment="CENTER" wrappingWidth="207.13671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="MysqlButton" layoutX="161.0" layoutY="160.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="MySQL" />
+      <Button fx:id="MongodbButton" layoutX="368.0" layoutY="160.0" mnemonicParsing="false" text="MongoDB" />
+   </children>
+</AnchorPane>
